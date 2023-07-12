@@ -1,4 +1,4 @@
-# 풀긴 풀었는데, 문제 이해가 잘 안됨..
+#h번 이상 인용된 논문을 h편이상 가지고 있다 -> h-index
 def solution(citations):
     citations.sort(reverse=True)  # 인용 수 큰 것부터 검사 위해 내림차순으로 정렬
     print(citations)
