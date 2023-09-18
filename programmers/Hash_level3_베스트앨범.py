@@ -1,3 +1,7 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/42579
+# 딕셔너리 값으로 리스트를 썼을 때 인덱스로 어떻게 접근하는지에 유의
+
+
 def solution(genres, plays):
     genre_dict = (
         {}
