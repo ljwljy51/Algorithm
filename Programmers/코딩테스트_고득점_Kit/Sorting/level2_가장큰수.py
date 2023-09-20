@@ -1,3 +1,6 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/42746
+
+
 def solution(numbers):
     # 원소 별 최대값이 1000임을 고려해 각 정수를 string으로 변환해 *3해준 뒤 정렬
     # ex) "30", "3"이 주어졌을 때 , "303030"과 "333"이 비교되어 "333"이 우선순위로 정렬됨
