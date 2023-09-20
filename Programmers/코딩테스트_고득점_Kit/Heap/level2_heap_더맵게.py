@@ -1,4 +1,7 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/42626
+
 import heapq
+
 
 def solution(scoville, K):
     answer = 0

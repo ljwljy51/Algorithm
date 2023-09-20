@@ -1,3 +1,7 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/42627
+# 어려웠다.. 로직이 왜 이렇게 되는지 이해해 집중
+
+
 import heapq
 
 
