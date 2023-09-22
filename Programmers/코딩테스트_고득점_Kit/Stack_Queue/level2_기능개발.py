@@ -1,3 +1,5 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/42586
+# 뒤에 있는 기능은 먼저 개발되더라도 앞에 있는 기능이 배포될 때 함께 배포된다는 점에 유의
 import math
 
 
