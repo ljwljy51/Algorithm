@@ -1,3 +1,6 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/42839
+# 소수 판별 알고리즘에 주목
+# string join 함수 자주 사용됨. 잘 기억해두자
 import math
 from itertools import permutations
 
