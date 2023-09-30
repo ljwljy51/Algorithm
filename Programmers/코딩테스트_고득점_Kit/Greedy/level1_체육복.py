@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/42862
 # 이미 예전에 풀었던 문제인데, 조건이 추가되어 코드를 수정해줬다.
 # https://rain-bow.tistory.com/30
 # 위 풀이를 참고했다.

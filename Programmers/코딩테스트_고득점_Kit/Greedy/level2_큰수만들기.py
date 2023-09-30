@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/42883
 # Combination 활용 방안 생각했으나, 시간초과문제로 인해 또 솔루션 봐버림 ㅋㅋ ㅜㅜ...
 # 스택 자료구조 활용
 # 맨 앞 수를 최대한 크게 유지하되, k만큼의 길이가 되어야 함에 유의
