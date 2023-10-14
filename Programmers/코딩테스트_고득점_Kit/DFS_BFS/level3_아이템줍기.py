@@ -9,7 +9,7 @@ directions = [[1, 0], [0, 1], [-1, 0], [0, -1]]  # 시계방향 검사 위함
 
 
 def bfs(character_x, character_y, item_x, item_y):
-    q = deque([(character_x, character_y)])  # bfs 위한 큐 생성(처음 점 기준 양 옆 지점 넣어둠)
+    q = deque([(character_x, character_y)]) 
 
     visited[character_y][character_x] = 1  # 방문정보 및 거리정보 기록
 
@@ -49,6 +49,5 @@ def solution(rectangle, characterX, characterY, itemX, itemY):
                 elif map[y][x] != 2:  # 기존 맵에서 직사각형 내부가 아닌 경우
                     map[y][x] = 1  # boundary
 
-    # start부터 도착지점 도달할 때까지 bfs 수행하면 될듯
     answer = bfs(characterX * 2, characterY * 2, itemX * 2, itemY * 2)
     return answer
