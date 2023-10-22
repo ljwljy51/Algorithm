@@ -9,7 +9,7 @@ directions = [[1, 0], [0, 1], [-1, 0], [0, -1]]  # 시계방향 검사 위함
 
 
 def bfs(character_x, character_y, item_x, item_y):
-    q = deque([(character_x, character_y)]) 
+    q = deque([(character_x, character_y)])
 
     visited[character_y][character_x] = 1  # 방문정보 및 거리정보 기록
 
