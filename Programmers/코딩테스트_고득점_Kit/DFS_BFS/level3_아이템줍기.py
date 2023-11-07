@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/87694
 # 좌표 두 배 해서 5, 5.5, 6..이런식으로 진행될 수 있도록 하기
 from collections import deque
 

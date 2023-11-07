@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/49191
 # "정확하게 순위를 매길 수 있는 선수의 수"
 # 접근법을 생각해내지 못해 결국 솔루션을 봤다
 # https://summa-cum-laude.tistory.com/16

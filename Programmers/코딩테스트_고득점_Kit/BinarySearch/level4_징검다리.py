@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/43236
 # https://velog.io/@jqdjhy/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%A7%95%EA%B2%80%EB%8B%A4%EB%A6%AC-%ED%8C%8C%EC%9D%B4%EC%8D%AC
 # 처음에 풀었으나, 이분탐색 기준을 뭐로 잡아야 할지 몰라 이분탐색을 안썼더니 시간초과 났었다
 # 그래서 결국 또 솔루션 봐버렸다..^^ 어쩌지 정말

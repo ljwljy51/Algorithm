@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/49189
 # BFS 사용
 # 1번 노드로부터 각 노드까지의 "최단거리" 계산
 # count함수 사용법에 유의

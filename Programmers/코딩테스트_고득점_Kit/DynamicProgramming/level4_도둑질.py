@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/42897
 # 최대 len(money)//2개의 집만 털 수 있음
 # 짝수인 경우 / 홀수인 경우가 갈림
 # 예전에 백준에서 풀었던 포도주? 문제랑 비슷한듯

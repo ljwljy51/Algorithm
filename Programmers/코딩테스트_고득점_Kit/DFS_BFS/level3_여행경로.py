@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/43164
 # 기본 아이디어는 생각했으나, "경로가 여러 가지"인 것을 처리하는 부분에서 헤맸음
 # "모든 티켓을 다 써야 함"
 # 알파벳 순서가 앞서는 경로를 먼저 return해야하므로, dfs 전에 sorting해주면 됐었음

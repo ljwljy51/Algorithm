@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/43238
 # https://velog.io/@jqdjhy/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%9E%85%EA%B5%AD%EC%8B%AC%EC%82%AC-%ED%8C%8C%EC%9D%B4%EC%8D%AC
 # 애초에 방법을 너무 잘못생각하고 있었음
 # input의 최대길이가 지나치게 길고, 특정 값을 찾아야 하는 문제라면 이분탐색을 의심

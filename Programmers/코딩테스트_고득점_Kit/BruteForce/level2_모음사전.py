@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/84512
 # 어떻게 접근해야할지 감을 못잡아 헤맸다.
 # 중복순열을 만들어주는 product 사용
 # 그동안 permutations, combinations만 써왔는데, product 있는 걸 처음 알았음
