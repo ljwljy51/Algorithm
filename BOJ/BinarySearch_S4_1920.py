@@ -1,4 +1,5 @@
 import sys
+
 input = sys.stdin.readline
 n = input()  # 숫자 개수
 n_list = set(input().split())  # 입력받은 숫자들

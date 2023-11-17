@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/150367
 # 포화이진트리의 개념 제대로 이해하기, 포화이진트리에서 노드 수 구하는 공식에 주목!
 
 # 문제 파악을 제대로 하지 못했다.

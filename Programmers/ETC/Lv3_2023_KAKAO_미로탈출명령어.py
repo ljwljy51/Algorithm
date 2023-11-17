@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/150365
 # 사전순대로 봤을 때, d, l, r, u 순으로 빠름
 # d..를 최우선으로 두고 나머지를 움직이는 게 좋음
 # 최소 경로 먼저 정해두고, 나머지로 왔다갔다

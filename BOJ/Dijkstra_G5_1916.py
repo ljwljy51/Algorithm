@@ -4,11 +4,12 @@
 
 import heapq
 import sys
+
 input = sys.stdin.readline
 
 
 def dijkstra(graph, start, num_city):  # 최적경로 탐색
-    distances = [float("inf")]*(num_city+1)  # 무한대 값으로 거리값 초기화
+    distances = [float("inf")] * (num_city + 1)  # 무한대 값으로 거리값 초기화
     distances[start] = 0  # 시작점에 대한 거리
     queue = []
     heapq.heappush(queue, [distances[start], start])  # 시작점 기준 값 큐에 넣어둠
@@ -21,7 +22,7 @@ def dijkstra(graph, start, num_city):  # 최적경로 탐색
             continue
 
         for new_dest, new_dist in graph[cur_dest]:  # 인접 노드 탐색
-            distance = cur_dist+new_dist  # 인접 노드까지의 거리
+            distance = cur_dist + new_dist  # 인접 노드까지의 거리
             if distance < distances[new_dest]:  # 기존 최단거리보다 거리값 작으면 갱신
                 distances[new_dest] = distance
                 # 다음 인접 노드와의 거리 계산 위함
@@ -32,7 +33,7 @@ def dijkstra(graph, start, num_city):  # 최적경로 탐색
 num_city = int(input())
 num_bus = int(input())
 
-graph = [[] for _ in range(num_city+1)]  # 그래프 생성
+graph = [[] for _ in range(num_city + 1)]  # 그래프 생성
 
 for _ in range(num_bus):
     start, end, weight = map(int, input().split())

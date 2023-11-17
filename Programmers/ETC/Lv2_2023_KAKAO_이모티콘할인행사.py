@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/150368
 # 완탐?
 # 이모티콘 각각에 대한 할인율 적용 결과 미리 계산
 # 역시나 아이디어는 맞았으나 구현을 어떻게 해야할지 감을 못잡았다
