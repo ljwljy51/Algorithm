@@ -1,5 +1,6 @@
-#https://leetcode.com/problems/prime-subtraction-operation/description/
-#소수 판별 알고리즘
+# https://leetcode.com/problems/prime-subtraction-operation/description/
+# 소수 판별 알고리즘
+
 
 class Solution:
     def primeSubOperation(self, nums: List[int]) -> bool:
