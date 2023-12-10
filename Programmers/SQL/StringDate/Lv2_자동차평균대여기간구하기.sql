@@ -1,0 +1,15 @@
+-- https://school.programmers.co.kr/learn/courses/30/lessons/157342
+-- 일수 계산할때 하루 더해서 생각해야함!!!!!
+-- MEAN이 아닌 AVG 써야 함
+SELECT
+    CAR_ID,
+    ROUND(AVG(DATEDIFF(END_DATE, START_DATE) + 1), 1) AS AVERAGE_DURATION
+FROM
+    CAR_RENTAL_COMPANY_RENTAL_HISTORY
+GROUP BY
+    CAR_ID
+HAVING
+    ROUND(AVG(DATEDIFF(END_DATE, START_DATE) + 1), 1) >= 7
+ORDER BY
+    AVERAGE_DURATION DESC,
+    CAR_ID DESC

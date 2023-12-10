@@ -1,0 +1,11 @@
+-- https://school.programmers.co.kr/learn/courses/30/lessons/59043
+SELECT
+    A.ANIMAL_ID,
+    A.NAME
+FROM
+    ANIMAL_INS AS A
+    JOIN ANIMAL_OUTS AS B ON A.ANIMAL_ID = B.ANIMAL_ID
+WHERE
+    B.DATETIME < A.DATETIME
+ORDER BY
+    A.DATETIME
