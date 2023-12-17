@@ -1,0 +1,19 @@
+-- https://school.programmers.co.kr/learn/courses/30/lessons/144856
+-- 3개 테이블 조인 관계 잘 이해하기
+SELECT
+    B.AUTHOR_ID,
+    B.AUTHOR_NAME,
+    A.CATEGORY,
+    SUM(A.PRICE * C.SALES) AS TOTAL_SALES
+FROM
+    BOOK AS A
+    INNER JOIN AUTHOR AS B ON A.AUTHOR_ID = B.AUTHOR_ID
+    INNER JOIN BOOK_SALES AS C ON A.BOOK_ID = C.BOOK_ID
+WHERE
+    C.SALES_DATE LIKE '2022-01-%'
+GROUP BY
+    A.AUTHOR_ID,
+    A.CATEGORY
+ORDER BY
+    A.AUTHOR_ID,
+    A.CATEGORY DESC

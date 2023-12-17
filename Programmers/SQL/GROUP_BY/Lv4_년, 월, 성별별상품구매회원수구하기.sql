@@ -1,0 +1,20 @@
+-- https://school.programmers.co.kr/learn/courses/30/lessons/131532
+-- 중복 정보 제거 위해 DISTINCT 사용
+SELECT
+    YEAR(SALES_DATE) AS YEAR,
+    MONTH(SALES_DATE) AS MONTH,
+    GENDER,
+    COUNT(DISTINCT A.USER_ID) AS USERS
+FROM
+    USER_INFO AS A
+    JOIN ONLINE_SALE AS B ON A.USER_ID = B.USER_ID
+WHERE
+    GENDER IS NOT NULL
+GROUP BY
+    YEAR(SALES_DATE),
+    MONTH(SALES_DATE),
+    GENDER
+ORDER BY
+    YEAR,
+    MONTH,
+    GENDER
