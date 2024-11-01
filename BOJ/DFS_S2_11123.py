@@ -5,7 +5,7 @@
 
 import sys
 
-sys.setrecursionlimit(10**6)  # 재귀 오류 방지 위함
+sys.setrecursionlimit(10 ** 6)  # 재귀 오류 방지 위함
 
 
 def dfs(y, x):

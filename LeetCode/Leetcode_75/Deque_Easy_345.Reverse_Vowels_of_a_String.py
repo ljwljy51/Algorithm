@@ -7,7 +7,7 @@ from collections import deque
 class Solution:
     def reverseVowels(self, s: str) -> str:
         dq_vowels = deque()  # 모음 저장을 위한 덱
-        dq_idxs = deque()  # 인덱스 저장을 위한 덱
+        dq_idxs = deque()  # 인덱스 저장을 위한 덱twoㅔㅐㅑㅜㅅㄷ
 
         vowel_dict = {
             "A": True,

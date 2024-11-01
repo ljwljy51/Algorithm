@@ -7,7 +7,7 @@ class Solution:
         def is_prime(n):  # 소수 판별
             if n == 1:
                 return False
-            for i in range(2, (int(n**0.5) + 1)):
+            for i in range(2, (int(n ** 0.5) + 1)):
                 if n % i == 0:  # 나눠떨어지면 소수 아님
                     return False
             return True
